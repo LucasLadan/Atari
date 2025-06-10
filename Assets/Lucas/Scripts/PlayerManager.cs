@@ -5,6 +5,8 @@ public class PlayerManager : MonoBehaviour
 {
     [SerializeField] private InputActionReference _movement;
     [SerializeField] private float _speed;
+    [SerializeField] private int _ammo;
+    private bool _bulletFired = false;
     private Rigidbody2D _rigidbody;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,9 +23,14 @@ public class PlayerManager : MonoBehaviour
 
     private void OnAttack(InputValue input)
     {
-        if (input.isPressed)
+        if (input.isPressed && _ammo > 0 && !_bulletFired)
         {
-
+            _bulletFired = true;
         }
+    }
+
+    public void SetBulletFired(bool newBool)
+    {
+        _bulletFired = newBool;
     }
 }
