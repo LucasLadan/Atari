@@ -10,22 +10,25 @@ public class EnemySpawner : MonoBehaviour
      {
         if (Input.GetKeyDown (KeyCode.Space))
         {
-            StartCoroutine(EnemyAppearing());
+            //StartCoroutine(EnemyAppearing());
+            EnemyAppear();
         }
-            
-        
-        
      }
-    // Update is called once per frame
+
+    
     public void EnemyAppear()
     {
         Vector2 enemySpawnZone = new Vector2(Random.Range (-7, 8.21f), Random.Range(-3.46f, -3.46f));
         Instantiate (_enemy, enemySpawnZone, Quaternion.identity); 
     }
 
-    IEnumerator EnemyAppearing()
-    {
-        yield return new WaitForSeconds (2);
-        EnemyAppear ();
-    }
+    //Co Routine Implementation:
+    //IEnumerator EnemyAppearing()
+    //{
+        
+        
+    //        yield return new WaitForSeconds(2); //Enemy appear function will be taking place for every 2 seconds after clicking the SpaceBar key.
+    //        EnemyAppear();
+       
+    //}
 }
