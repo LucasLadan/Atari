@@ -6,16 +6,17 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private InputActionReference _movement;
     [SerializeField] private float _speed;
     [SerializeField] private int _ammo;
+    [SerializeField] private int _maxAmmo;
     [SerializeField] private Bullet _bullet;
     private bool _bulletFired = false;
     private Rigidbody2D _rigidbody;
-    private Vector2 _lookDirection = Vector2.zero;
+    private Vector2 _lookDirection = Vector2.right;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        _rigidbody = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate()
