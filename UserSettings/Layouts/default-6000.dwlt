@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1512
     height: 854
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -254,7 +254,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 18}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -384,7 +384,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 45530
+  m_LastSelectedObjectID: -26068
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -479,9 +479,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 680
-    width: 1533
-    height: 306
+    y: 593
+    width: 1207
+    height: 258
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -515,7 +515,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 307
     height: 488
   m_SerializedDataModeController:
@@ -534,7 +534,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 08fbffff
+      m_ExpandedIDs: ca88ffff6e89ffff0a8affffa88affff3e8bffff0c8cffff2c9afffffef1ffff2ef7ffff3ef7ffff08fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -580,8 +580,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 308
-    y: 79
+    x: 309
+    y: 24
     width: 898
     height: 488
   m_SerializedDataModeController:
@@ -1166,9 +1166,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.59931993, y: -0.21813934, z: -0.05476266}
+    m_Target: {x: 1725, y: 1778.7275, z: -12.762401}
     speed: 2
-    m_Value: {x: 0.59931993, y: -0.21813934, z: -0.05476266}
+    m_Value: {x: 1725, y: 1778.7275, z: -12.762401}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1218,9 +1218,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.190475
+    m_Target: 1277.0895
     speed: 2
-    m_Value: 6.190475
+    m_Value: 1277.0895
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1374,7 +1374,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 593
+    y: 538
     width: 1207
     height: 258
   m_SerializedDataModeController:
@@ -1399,7 +1399,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Ahamed/Scripts/Enemy
+    - Assets/Ahamed/Scenes/User Interface
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1409,16 +1409,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Ahamed/Scripts/Enemy
+  - Assets/Ahamed/Scenes/User Interface
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Repos\Atari
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b6b00000
-    m_LastClickedID: 45238
-    m_ExpandedIDs: 00000000baae0000a0b00000aeb0000000ca9a3b
+    m_SelectedIDs: bab00000
+    m_LastClickedID: 45242
+    m_ExpandedIDs: 00000000a2ae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1447,7 +1447,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000baae0000
+    m_ExpandedIDs: 00000000a2ae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1475,7 +1475,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300001400000008c600003ab500001800000080020000e6b60000380501008c020000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1526,8 +1526,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1208
-    y: 79
+    x: 1209
+    y: 24
     width: 303
     height: 772
   m_SerializedDataModeController:
@@ -1544,7 +1544,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 192.79999
+    m_CachedPref: -192.79999
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
