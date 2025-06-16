@@ -5,7 +5,12 @@ public class PlayerManager : MonoBehaviour
 {
     [SerializeField] private InputActionReference _movement;
     [SerializeField] private float _speed;
+    [SerializeField] private int _ammo;
+    [SerializeField] private Bullet _bullet;
+    private bool _bulletFired = false;
     private Rigidbody2D _rigidbody;
+    private Vector2 _lookDirection = Vector2.zero;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,9 +26,25 @@ public class PlayerManager : MonoBehaviour
 
     private void OnAttack(InputValue input)
     {
-        if (input.isPressed)
+        if (input.isPressed && _ammo > 0 && !_bulletFired)
         {
+            _bulletFired = true;
+            Bullet bullet = Instantiate(_bullet,transform.position,new Quaternion(0,0,0,0));
+            bullet.SetMovement(_lookDirection);
+        }
+    }
 
+    public void SetBulletFired(bool newBool)
+    {
+        _bulletFired = newBool;
+    }
+
+    public void OnMove(InputValue input)
+    {
+        Vector2 inputDirection = input.Get<Vector2>();
+        if (inputDirection != null && inputDirection != Vector2.zero)
+        {
+            _lookDirection = inputDirection;
         }
     }
 }
