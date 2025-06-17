@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Ahamed/Scenes/User Interface/MainMenu.unity
     guid: 1aa25c02854a4174eb26efd33b1cf8c9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ahamed/Scenes/Gamplay/GamePlay.unity
     guid: 7af4fbdbcc4390645914799853ae64e8
   - enabled: 1
     path: Assets/Ahamed/Scenes/User Interface/GameOver.unity
     guid: 2cc2cbf3da5a62b46a813d976dfd9899
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 63966d3a74222e549abefa435ee1bca1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

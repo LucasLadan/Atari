@@ -9,7 +9,7 @@ public class MainMenuUI : MonoBehaviour
      }
     public void StartGame()
     {
-        SceneManager.LoadScene("GamePlay");
+        SceneManager.LoadScene("GameScene");
         Time.timeScale = 1f;
     }
 
